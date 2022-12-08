@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // --------- Question 01 ---------
+        function nameAge(name, age) {
+            console.log(name.concat(" ", age));
+        }
+
+        nameAge('Zainab', 22);
+
+
+        // --------- Question 02 ---------
+        function double(num) {
+            var num1 = num * 2;
+            console.log(num1);
+        }
+        double(5);
+
+
+        // --------- Question 03 ---------
+        let square = function (num) {
+            return num * num;
+        };
+        console.log(square(4));
+
+        let x = square(5);
+        console.log(x);
+
+
+        // --------- Question 04 ---------
+        let isAdult = (age) => {
+            if (age >= 18) {
+                console.log("Adult");
+            }
+            else {
+                console.log("baby");
+            }
+        }
+
+        isAdult(16);
+
+
+        // --------- Question 05 ---------
+        const sum = (value) => {
+            console.log(value + value);
+        }
+
+        sum(10);
+        
+    </script>
+</body>
+
+</html>
